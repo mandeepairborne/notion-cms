@@ -1,0 +1,7 @@
+functions:
+  fetchNotion:
+    handler: lib/fetchNotion.handler
+    events:
+      - http:
+          path: /
+          method: get
